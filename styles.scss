@@ -1,0 +1,11 @@
+// styles.scss
+// Import Darkly theme
+@import "bootstrap/scss/functions";
+@import "bootswatch/dist/darkly/variables"; // Quarto handles these paths internally
+@import "bootstrap/scss/bootstrap";
+@import "bootswatch/dist/darkly/bootswatch";
+
+// Now override anything you want
+$body-bg: #121212;
+$body-color: #f8f9fa;
+$primary: #00ffcc;  // change primary color
